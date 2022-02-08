@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  align-self: center;
+}
+
+.flow-right {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.container {
+  border: 3px solid green;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.task-container-header {
+  display: flex;
+  padding: 25px;
+}
+
+.task-container {
+  display: flex;
+  border: 1px dashed;
+  padding: 10px;
+  margin: 5PX;
+  justify-content: space-around;
+  gap: 10px 20px;;
+}
+
+div {
+  word-break: break-all;
+}
+
+.title, .controls, .button {
+  flex: none;
+}
+
+.button {
+  padding: 10px;
+}
+
+.button:hover {
+  background: #eee;
+  color: green;
+}
+
+.task {
+  width: 700px;
+}
+
+.check, .delbutton {
+  width: 54px;
+  font-size: 12px;
+}
+
+.delbutton:hover {
+  background: #eee;
+  color: red;
+  font-size: 12px;
+}

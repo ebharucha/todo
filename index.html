@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">Basic TODO App</h1>
+      <div class="flow-right controls">
+        <span>Item count: <span id="item-count">0</span></span>
+        <span>Unchecked count: <span id="unchecked-count">0</span></span>
+      </div>
+      <button class="button center" onClick="newTodo()">New TODO</button>
+      <div class="task-container-header">
+        <div>
+          <h3>ToDo List</h3>
+          Click the corresponding checkbox to toggle completion status & button to delete a task
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
